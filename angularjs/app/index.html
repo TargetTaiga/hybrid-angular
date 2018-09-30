@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>My AngularJS App</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<h1>AngularJS 1.6 Application</h1>
+
+<div ng-controller="myController">
+	<p>
+	<div>This buttons are parts of the AngularJS Application:</div>
+	<button ng-click="handleClick()">Click</button>
+	<button ng-click="handleReset()">Reset</button>
+	</p>
+	<angular6-logo bind-count="clicks" on-click="handleComponentClick()">
+		<div
+			style="background-color: #d6d6d6; height: 162px; display: flex; justify-content: center; align-items: center">
+			Loading...
+		</div>
+	</angular6-logo>
+</div>
+
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+	your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<ui-view></ui-view>
+
+<p>Angular seed app: v<span app-version></span></p>
+
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+<!--<script type="systemjs-packagemap">-->
+<!--{-->
+  <!--"packages": {-->
+    <!--"shim": "../../node_modules/core-js/client/shim.js",-->
+    <!--"zone": "../../node_modules/zone.js/dist/zone.js",-->
+    <!--"rxjs": "../../node_modules/rxjs/bundles/rxjs.umd.js",-->
+    <!--"angular/core": "../../../node_modules/@angular/core/bundles/core.umd.js",-->
+    <!--"angular/common": "../../../node_modules/@angular/common/bundles/common.umd.js",-->
+    <!--"angular/compiler": "../../../node_modules/@angular/compiler/bundles/compiler.umd.js",-->
+    <!--"angular/platform-browser": "../../../node_modules/@angular/platform-browser/bundles/platform-browser.umd.js",-->
+    <!--"angular/platform-browser-dynamic": "../../../node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js",-->
+    <!--"angular/update": "../../../node_modules/@angular/upgrade/bundles/upgrade-static.umd.js",-->
+    <!--"angular6-components": "../../../app/angular6_components/lib/bundles/angular6-components-lib.umd.js"-->
+  <!--}-->
+<!--}-->
+<!--</script>-->
+
+<script src="../node_modules/core-js/client/shim.js"></script>
+<script src="../node_modules/zone.js/dist/zone.js"></script>
+<script src="../node_modules/rxjs/bundles/rxjs.umd.js"></script>
+<script src="../node_modules/@angular/core/bundles/core.umd.js"></script>
+<script src="../node_modules/@angular/common/bundles/common.umd.js"></script>
+<script src="../node_modules/@angular/compiler/bundles/compiler.umd.js"></script>
+<script src="../node_modules/@angular/platform-browser/bundles/platform-browser.umd.js"></script>
+<script src="../node_modules/@angular/platform-browser-dynamic/bundles/platform-browser-dynamic.umd.js"></script>
+
+<script src="../node_modules/angular/angular.js"></script>
+
+<script src="../node_modules/@angular/upgrade/bundles/upgrade-static.umd.js"></script>
+<script src="angular6_components/lib/bundles/angular6-components-lib.umd.js"></script>
+
+<script src="app.js"></script>
+<script src="components/version/version.js"></script>
+<script src="components/version/version-directive.js"></script>
+<script src="components/version/interpolate-filter.js"></script>
+</body>
+</html>

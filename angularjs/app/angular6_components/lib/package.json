@@ -1,0 +1,26 @@
+{
+  "name": "angular6-components-lib",
+  "version": "0.0.1",
+  "peerDependencies": {},
+  "dependencies": {
+    "zone.js": "0.8.26",
+    "rxjs": "6.3.3",
+    "@angular/core": "6.1.9",
+    "@angular/common": "6.1.9",
+    "@angular/platform-browser": "6.1.9",
+    "@angular/platform-browser-dynamic": "6.1.9",
+    "@angular/compiler": "6.1.9",
+    "@angular/upgrade": "6.1.9",
+    "tslib": "^1.9.0"
+  },
+  "main": "bundles/angular6-components-lib.umd.js",
+  "module": "fesm5/angular6-components-lib.js",
+  "es2015": "fesm2015/angular6-components-lib.js",
+  "esm5": "esm5/angular6-components-lib.js",
+  "esm2015": "esm2015/angular6-components-lib.js",
+  "fesm5": "fesm5/angular6-components-lib.js",
+  "fesm2015": "fesm2015/angular6-components-lib.js",
+  "typings": "angular6-components-lib.d.ts",
+  "metadata": "angular6-components-lib.metadata.json",
+  "sideEffects": false
+}

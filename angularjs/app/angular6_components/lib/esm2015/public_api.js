@@ -1,0 +1,11 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/*
+ * Public API Surface of angular6-components-lib
+ */
+export { Angular6ComponentsLibModuleId } from './lib/angular6-components-lib.module';
+export { Angular6LogoComponentDowngraded } from './lib/angular6-logo/angular6-logo.component';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL2FuZ3VsYXI2LWNvbXBvbmVudHMtbGliLyIsInNvdXJjZXMiOlsicHVibGljX2FwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBS0EsT0FBTyxFQUFFLDZCQUE2QixFQUFFLE1BQUssc0NBQXNDLENBQUM7QUFDcEYsT0FBTyxFQUFFLCtCQUErQixFQUFFLE1BQU0sNkNBQTZDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIGFuZ3VsYXI2LWNvbXBvbmVudHMtbGliXG4gKi9cblxuXG5leHBvcnQgeyBBbmd1bGFyNkNvbXBvbmVudHNMaWJNb2R1bGVJZCB9ZnJvbSAnLi9saWIvYW5ndWxhcjYtY29tcG9uZW50cy1saWIubW9kdWxlJztcbmV4cG9ydCB7IEFuZ3VsYXI2TG9nb0NvbXBvbmVudERvd25ncmFkZWQgfSBmcm9tICcuL2xpYi9hbmd1bGFyNi1sb2dvL2FuZ3VsYXI2LWxvZ28uY29tcG9uZW50JztcbiJdfQ==

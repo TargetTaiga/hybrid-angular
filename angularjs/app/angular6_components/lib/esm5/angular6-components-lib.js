@@ -1,0 +1,11 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/**
+ * Generated bundle index. Do not edit.
+ */
+export { Angular6ComponentsLibModuleId, Angular6LogoComponentDowngraded } from './public_api';
+export { Angular6LogoComponent as ɵa } from './lib/angular6-logo/angular6-logo.component';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYW5ndWxhcjYtY29tcG9uZW50cy1saWIuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9hbmd1bGFyNi1jb21wb25lbnRzLWxpYi8iLCJzb3VyY2VzIjpbImFuZ3VsYXI2LWNvbXBvbmVudHMtbGliLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFJQSwrRUFBYyxjQUFjLENBQUM7QUFFN0IsT0FBTyxFQUFDLHFCQUFxQixJQUFJLEVBQUUsRUFBQyxNQUFNLDZDQUE2QyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBHZW5lcmF0ZWQgYnVuZGxlIGluZGV4LiBEbyBub3QgZWRpdC5cbiAqL1xuXG5leHBvcnQgKiBmcm9tICcuL3B1YmxpY19hcGknO1xuXG5leHBvcnQge0FuZ3VsYXI2TG9nb0NvbXBvbmVudCBhcyDJtWF9IGZyb20gJy4vbGliL2FuZ3VsYXI2LWxvZ28vYW5ndWxhcjYtbG9nby5jb21wb25lbnQnOyJdfQ==
